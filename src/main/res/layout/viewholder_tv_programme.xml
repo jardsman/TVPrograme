@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:background="@drawable/stroked_bg"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="name"
+            android:id="@+id/programme_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="start time"
+            android:id="@+id/programme_start_time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6f6f6f" />
+
+        <TextView
+            android:text="end time"
+            android:id="@+id/programme_end_time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6f6f6f" />
+
+        <TextView
+            android:text="channel"
+            android:id="@+id/programme_channel_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6f6f6f" />
+
+        <TextView
+            android:text="rating"
+            android:textStyle="bold"
+            android:id="@+id/programme_rating_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6f6f6f" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

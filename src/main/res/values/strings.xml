@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TVPrograme2</string>
+    <string name="failure_download_programme">Download has failed. Please check internet connection and click on this to try again</string>
+    <string name="error_last_page_reached">You have reached the last page. Cannot load more items.</string>
+</resources>
